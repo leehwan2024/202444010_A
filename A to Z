@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int cnt;
+
+    printf("알파벳 대문자 출력\n");
+    
+    for(cnt=65; cnt<=90; cnt++)
+    {
+        printf("%c ",cnt);
+    }
+    return 0;
+}
